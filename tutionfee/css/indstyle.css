@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: antiquewhite;
+    width: auto;
+    height:auto;
+}
+header{
+    height: 150px;
+    background-color: black;
+}
+.logo{
+    float: left;
+    padding: 5px;
+}
+h3{
+    color: white;
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+float: right;
+color: white;
+text-decoration: none;
+line-height: 100px;
+padding: 15px;
+
+font-size: 25px;
+}
+nav ul li a:hover{
+    color: orange;
+    transition: 0.5s ease;
+}
+.box{
+    height: 300px;
+    width: 450px;
+    background-color:#030002;
+    margin: 10px auto;
+    opacity: .5;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    cursor: pointer;
+}
+.box h1{
+    text-align: center;
+}
+.box h1:hover{
+    color: orange;
+    transition: 0.8s ease;
+    
+}
+
